@@ -2714,7 +2714,7 @@ hterm.Terminal.prototype.showZoomWarning_ = function(state) {
     this.zoomWarningNode_.style.cssText = (
         'color: black;' +
         'background-color: #ff2222;' +
-        'font-size: large;' +
+        'font-size: 12px;' +
         'border-radius: 8px;' +
         'opacity: 0.75;' +
         'padding: 0.2em 0.5em 0.2em 0.5em;' +
@@ -2766,7 +2766,7 @@ hterm.Terminal.prototype.showOverlay = function(msg, opt_timeout) {
     this.overlayNode_ = this.document_.createElement('div');
     this.overlayNode_.style.cssText = (
         'border-radius: 15px;' +
-        'font-size: xx-large;' +
+        'font-size: 12px;' +
         'opacity: 0.75;' +
         'padding: 0.2em 0.5em 0.2em 0.5em;' +
         'position: absolute;' +

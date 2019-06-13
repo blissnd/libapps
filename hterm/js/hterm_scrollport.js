@@ -343,7 +343,7 @@ hterm.ScrollPort.prototype.decorate = function(div) {
       'caret-color: transparent;' +
       'display: block;' +
       'font-family: monospace;' +
-      'font-size: 15px;' +
+      'font-size: 12px;' +
       'font-variant-ligatures: none;' +
       'height: 100%;' +
       'overflow-y: scroll; overflow-x: hidden;' +

@@ -189,7 +189,7 @@ hterm.Frame.prototype.show = function() {
         'height: ' + headerHeight + ';' +
         'background-color: ' + this.terminal_.getForegroundColor() + ';' +
         'color: ' + this.terminal_.getBackgroundColor() + ';' +
-        'font-size: 16px;' +
+        'font-size: 12px;' +
         'font-family: ' + this.terminal_.getFontFamily());
     container.appendChild(header);
 
